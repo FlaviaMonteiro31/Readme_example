@@ -7,7 +7,6 @@
 <p>O site de compras foi desenvolvido para permitir a compra de produtos por lojas e parceiros. Este site foi desenvolvido para substituir o antigo site em ASP.</p>
 <h2 id="🚀-começando">🚀 Começando</h2>
 <p>Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.</p>
-<p>Consulte  <strong><a href="https://gist.github.com/lohhans/f8da0b147550df3f96914d3797e9fb89#-implanta%C3%A7%C3%A3o">Implantação</a></strong>  para saber como implantar o projeto.</p>
 <h3 id="📋pré-requisitos">📋Pré-requisitos</h3>
 <p>Para iniciar a manutenção ou desenvolvimento de novas funcionalidades é pré-requisito ter as seguintes ferramentas instaladas:</p>
 <ol>
@@ -17,8 +16,7 @@
 <li>JDK 17</li>
 </ol>
 <h3 id="🔧instalação">🔧Instalação</h3>
-<p>Segue os detalhes para criar a imagem docker</p>
-<p>USANDO O ORACLE DATABASE</p>
+<p>Segue os detalhes para criar a imagem do oracle database no docker</p>
 <ol>
 <li>Baixar as imagem do git<br>
 <em>git clone <a href="https://github.com/oracle/docker-images">https://github.com/oracle/docker-images</a></em></li>
@@ -52,19 +50,20 @@
 <pre><code>Dar exemplos
 </code></pre>
 <h3 id="🛠️-construído-com">🛠️ Construído com</h3>
-<p>Mencione as ferramentas que você usou para criar seu projeto</p>
+<p>O site de compras foi construído em Java, versão 17, contendo os seguintes frameworks.</p>
 <ul>
-<li><a href="http://www.dropwizard.io/1.0.2/docs/">Dropwizard</a>  - O framework web usado</li>
-<li><a href="https://maven.apache.org/">Maven</a>  - Gerente de Dependência</li>
-<li><a href="https://rometools.github.io/rome/">ROME</a>  - Usada para gerar RSS</li>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/">Spring Boot</a>  - O framework de desenvolvimento</li>
+<li><a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/">Spring Security</a>  - Recursos de segurança, autenticação e autorização</li>
+<li><a href="https://maven.apache.org/">Maven</a>  - Gerenciamento de Dependência</li>
+<li><a href="https://projectlombok.org/features/">Lombok</a>  - Usada para redução de código boilerplate</li>
+<li><a href="https://docs.spring.io/spring-data/jpa/docs/current-SNAPSHOT/reference/html/#reference">JPA</a>  - Usada para gerenciamento de persistência e mapeamento de objeto e funções</li>
 </ul>
 <h3 id="📌versão">📌Versão</h3>
-<p>Nós usamos <a href="http://semver.org/">SemVer</a> para controle de versão. Para as versões disponíveis, observe as <a href="https://github.com/suas/tags/do/projeto">tags neste repositório</a>.</p>
+<p>Todas as versões existentes  <a href="https://gitlab.redecorp.br/b2c-dev-legados/src/sdc-margarida">neste repositório</a>.</p>
 <h3 id="✒️autores">✒️Autores</h3>
-<p>Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início</p>
+<p>Os envolvidos no levantamento e desenvolvimento do site de compras</p>
 <ul>
-<li><strong>Um desenvolvedor</strong>  -  <em>Trabalho Inicial</em>  -  <a href="https://github.com/linkParaPerfil">umdesenvolvedor</a></li>
-<li><strong>Fulano De Tal</strong>  -  <em>Documentação</em>  -  <a href="https://github.com/linkParaPerfil">fulanodetal</a></li>
+<li><strong>Flávia Alves Monteiro</strong>  -  _Desenvolvedor Back-End</li>
+<li><strong>Eduardo Chagas Silva</strong>  -  _Desenvolvedor Back-End</li>
 </ul>
-<p>Você também pode ver a lista de todos os  <a href="https://github.com/usuario/projeto/colaboradores">colaboradores</a>  que participaram deste projeto.</p>
 
